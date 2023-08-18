@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    font-size: 12px;
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background-image: linear-gradient(to top, hsl(240, 73%, 65%), hsl(273, 75%, 66%));
+    background-size: auto;
+
+
+}
+
+.main{
+    display: flex;
+    width: 1100px;
+    height: 500px;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.acordion{
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid hsla(251, 6%, 34%, 0.419);
+    padding: 18px;
+    width: 70%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.acordion:hover{
+    color: red;
+}
+
+.panel{
+    display: none;
+    width: 70%;
+    margin: 10px 0;
+}
